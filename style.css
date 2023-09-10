@@ -280,7 +280,7 @@ body {
 .slider_container {
   display: inline-flex;
   align-items: center;
-  padding: 0 165px;
+  padding: 32px 165px;
   overflow: hidden;
   max-width: 77%;
 }
@@ -325,6 +325,7 @@ body {
   border-radius: 32px;
   /* background: #fff; */
   box-sizing: border-box;
+  height: 443px;
 }
 
 .card_title {
@@ -348,4 +349,41 @@ body {
   background: #fff;
   box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.1),
     0px 41px 89px 0px rgba(0, 0, 0, 0.1);
+}
+
+.circle {
+  position: relative;
+}
+
+.arrow_left {
+  position: absolute;
+  top: 38px;
+  left: 38px;
+}
+
+.arrow_box {
+  display: flex;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.arrow_container {
+  display: flex;
+  padding: 64px 165px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.slider_wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.arrow_title {
+  color: #191825;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 120%;
 }
