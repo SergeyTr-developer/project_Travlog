@@ -280,7 +280,7 @@ body {
 .slider_container {
   display: inline-flex;
   align-items: center;
-  padding: 32px 165px;
+  padding: 105px 165px;
   overflow: hidden;
   max-width: 77%;
 }
@@ -351,6 +351,10 @@ body {
     0px 41px 89px 0px rgba(0, 0, 0, 0.1);
 }
 
+.card_background {
+  background-color: #fff;
+}
+
 .circle {
   position: relative;
 }
@@ -369,7 +373,7 @@ body {
 
 .arrow_container {
   display: flex;
-  padding: 64px 165px;
+  padding: 0 165px;
   justify-content: space-between;
   align-items: center;
 }
