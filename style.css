@@ -184,7 +184,6 @@ body {
   padding: 16px 32px;
   border: none;
   color: #eee;
-  font-family: Circular Std;
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
@@ -338,7 +337,7 @@ body {
 
 .card_text {
   color: rgba(25, 24, 37, 0.5);
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 160%;
@@ -439,7 +438,7 @@ body {
 
 .city_hotel {
   color: rgba(25, 24, 37, 0.75);
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 160%;
@@ -464,9 +463,141 @@ body {
   gap: 31px;
   flex-wrap: wrap;
   margin-top: -70px;
+  margin-bottom: 128px;
 }
 
 .star_box {
   display: flex;
   justify-content: flex-end;
+}
+
+.price_wrap {
+  display: inline-flex;
+  align-items: center;
+  gap: 42px;
+}
+
+.price_btn {
+  display: inline-flex;
+  padding: 16px 32px;
+  align-items: center;
+  gap: 16px;
+  border-radius: 100px;
+  background: #fff;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.03),
+    0px 15px 34px 0px rgba(0, 0, 0, 0.03), 0px 62px 62px 0px rgba(0, 0, 0, 0.02),
+    0px 139px 83px 0px rgba(0, 0, 0, 0.01), 0px 246px 99px 0px rgba(0, 0, 0, 0),
+    0px 385px 108px 0px rgba(0, 0, 0, 0);
+  color: #191825;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 120%;
+  border: none;
+}
+
+.price_btn::before {
+  content: "";
+  background-image: url(img/discount_1.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 24px;
+  width: 24px;
+  display: inline-block;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+.discount_box {
+  position: relative;
+  display: inline-block;
+}
+
+.price_btn {
+  position: absolute;
+  top: 145px;
+  right: 10px;
+  z-index: 1;
+}
+
+.point_box {
+  display: flex;
+  width: 445px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 64px;
+  box-sizing: border-box;
+}
+
+.point_text {
+  color: #f85e9f;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: 4.6px;
+  text-transform: uppercase;
+}
+
+.point_title {
+  color: #191825;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.point_slogan {
+  color: rgba(25, 24, 37, 0.5);
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+/* блок нижний */
+
+.package_container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.package_top {
+  display: grid;
+  grid-template-columns: repeat(2, 210px);
+  gap: 32px;
+}
+
+.package_number {
+  display: flex;
+  padding: 32px;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  border-radius: 32px;
+  border: 1px solid rgba(25, 24, 37, 0.1);
+  background: #fff;
+  position: relative;
+}
+
+.package_title {
+  color: #ff5722;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.package_text {
+  color: #191825;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.luxury_hotel::before {
+  content: url("img/Frame_50.svg");
+  position: absolute;
+  top: -90px;
+  right: -150px;
 }
