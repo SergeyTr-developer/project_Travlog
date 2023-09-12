@@ -240,6 +240,7 @@ body {
 
 .image_box {
   position: relative;
+  margin-top: 64px;
 }
 
 .image_btn {
@@ -258,9 +259,12 @@ body {
 
 .image_wrap {
   position: relative;
-  background-image: url(img/OBJECTS.svg);
-  background-repeat: no-repeat;
-  padding-top: 50px;
+}
+
+.image_position {
+  position: absolute;
+  bottom: 43px;
+  left: 0;
 }
 
 .background_yellow {
@@ -599,5 +603,5 @@ body {
   content: url("img/Frame_50.svg");
   position: absolute;
   top: -90px;
-  right: -150px;
+  left: 80px;
 }
