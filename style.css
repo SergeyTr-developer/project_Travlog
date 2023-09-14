@@ -528,7 +528,6 @@ body {
   width: 445px;
   flex-direction: column;
   align-items: flex-start;
-  gap: 64px;
   box-sizing: border-box;
 }
 
@@ -539,6 +538,7 @@ body {
   line-height: 120%;
   letter-spacing: 4.6px;
   text-transform: uppercase;
+  margin-bottom: 16px;
 }
 
 .point_title {
@@ -546,6 +546,7 @@ body {
   font-size: 44px;
   font-weight: 700;
   line-height: 120%;
+  margin-bottom: 32px;
 }
 
 .point_slogan {
@@ -555,6 +556,7 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 160%;
+  margin-bottom: 64px;
 }
 
 /* блок нижний */
