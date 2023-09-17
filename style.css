@@ -130,7 +130,7 @@ body {
   flex-direction: column;
   align-items: flex-start;
   gap: 43px;
-  padding-left: 150px;
+  padding-left: 159px;
 }
 
 .explore-btn {
@@ -306,7 +306,7 @@ body {
 .slider_container {
   display: inline-flex;
   align-items: center;
-  padding: 105px 150px;
+  padding: 105px 151px;
   overflow: hidden;
   max-width: 79%;
 }
@@ -430,7 +430,7 @@ body {
 
 .arrow_container {
   display: flex;
-  padding: 0 150px;
+  padding: 0 151px;
   justify-content: space-between;
   align-items: center;
 }
