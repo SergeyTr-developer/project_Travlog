@@ -23,7 +23,7 @@ body {
 .header_box {
   position: relative;
   display: flex;
-  padding: 32px 150px;
+  padding: 32px 165px;
   justify-content: space-between;
   align-items: center;
 }
@@ -130,7 +130,7 @@ body {
   flex-direction: column;
   align-items: flex-start;
   gap: 43px;
-  padding-left: 159px;
+  padding-left: 165px;
 }
 
 .explore-btn {
@@ -150,6 +150,7 @@ body {
   border: none;
   display: inline-flex;
   align-items: center;
+  cursor: pointer;
 }
 
 .explore-btn::after {
@@ -430,7 +431,7 @@ body {
 
 .arrow_container {
   display: flex;
-  padding: 0 151px;
+  padding: 0 165px;
   justify-content: space-between;
   align-items: center;
 }
@@ -666,7 +667,7 @@ body {
   width: 540px;
   flex-direction: column;
   align-items: flex-start;
-  margin-left: 150px;
+  padding-left: 165px;
   margin-top: 128px;
 }
 
@@ -1030,4 +1031,73 @@ body {
   position: absolute;
   right: 0;
   top: -170px;
+}
+
+.footer_container {
+  display: flex;
+  padding: 0px 165px;
+  align-items: flex-start;
+  gap: 153px;
+  margin-top: 128px;
+  margin-bottom: 86px;
+}
+
+.footer_left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 64px;
+  flex: 1 0 0;
+}
+
+.footer_logo {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  color: var(--Black, #191825);
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 40px; /* 166.667% */
+}
+
+.social_wraper {
+  display: flex;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.footer_text {
+  color: rgba(25, 24, 37, 0.5);
+  font-size: 23px;
+  font-weight: 450;
+  line-height: 160%; /* 36.8px */
+}
+
+.footer_right {
+  display: flex;
+  align-items: flex-start;
+  gap: 121px;
+}
+
+.list_wraper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  list-style-type: none;
+}
+
+.list_wraper .item_title {
+  color: #191825;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 120%; /* 27.6px */
+}
+
+.list_wraper li {
+  color: rgba(25, 24, 37, 0.75);
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 160%; /* 28.8px */
 }
