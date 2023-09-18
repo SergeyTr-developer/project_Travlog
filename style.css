@@ -784,7 +784,6 @@ body {
   vertical-align: middle;
 }
 
-/* слайдер */
 .testimonials {
   margin-top: 52px;
   height: 600px;
@@ -933,7 +932,7 @@ body {
     drop-shadow(0px 116px 46px rgba(0, 0, 0, 0.01))
     drop-shadow(0px 181px 51px rgba(0, 0, 0, 0));
 }
-/*  */
+
 .beauty_wraper {
   display: flex;
   max-width: 1110px;
@@ -1058,6 +1057,7 @@ body {
   font-size: 24px;
   font-weight: 900;
   line-height: 40px; /* 166.667% */
+  margin-bottom: 32px;
 }
 
 .social_wraper {
@@ -1068,7 +1068,7 @@ body {
 
 .footer_text {
   color: rgba(25, 24, 37, 0.5);
-  font-size: 23px;
+  font-size: 21px;
   font-weight: 450;
   line-height: 160%; /* 36.8px */
 }
